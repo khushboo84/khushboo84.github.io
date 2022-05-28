@@ -1,4 +1,4 @@
-const TypeWriter = function(txtElement, words, wait = 200){
+const TypeWriter = function(txtElement, words, wait = 100){
     this.txtElement = txtElement;
     this.words = words;
     this.txt = '';
@@ -49,7 +49,7 @@ const TypeWriter = function(txtElement, words, wait = 200){
         //move to next word
         this.wordIndex++;
         //pasue before typing
-        typeSpeed = 100;
+        typeSpeed = 50;
         console.log(this.wordIndex);
         console.log(this.txt);
     }

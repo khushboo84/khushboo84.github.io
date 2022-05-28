@@ -8,6 +8,7 @@ body{
     height: 90vh;
     overflow: hidden;
     
+    
 }
 
 
@@ -67,6 +68,7 @@ ul a {
 /* ---------------------------------- */
         /* HomePage */
 /* ---------------------------------- */
+
 
 
 
@@ -147,8 +149,9 @@ ul a {
 
 
 /* ---------------------------------- */
-        /* About  */
+        /*contact */
 /* ---------------------------------- */
+
 
 
 
@@ -163,7 +166,7 @@ ul a {
 
 
 /* ---------------------------------- */
-        /* Contact  */
+        /* About me  */
 /* ---------------------------------- */
 
 .contact-heading{
@@ -193,7 +196,8 @@ ul a {
     
   }
   .grid-item {
-      margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding:5%;
     color: white;
   }
@@ -204,6 +208,9 @@ ul a {
 
   .about-website{
       color: white;
+      overflow: auto;
+      margin-left:5%;
+      margin-right: 5%;
   }
 
 
