@@ -6,7 +6,6 @@ body{
     background-position: center;
     font-family: 'Raleway', sans-serif;
     height: 90vh;
-    overflow: hidden;
     
     
 }
@@ -162,6 +161,26 @@ ul a {
 /* ---------------------------------- */
         /* Projects */
 /* ---------------------------------- */
+
+.card-container{
+display: grid;
+grid-template-columns: auto auto auto;
+margin:8%;
+}
+
+.card-item{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  height:300px;
+  width:300px;
+  margin-bottom: 30%;
+  margin-left: 10%;
+  font-size: 30px;
+  text-align: center;
+  color:white;
+  background-color:white;
+    
+}
 
 
 
